@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/style-menu.css">
+
+
+
+    <link rel="apple-touch-icon" href="imagens/icon-touch-retina.png">
+    <link rel="apple-touch-icon" href="imagens/icon-touch-retina-iphone.png">
+    <link rel="apple-touch-icon" href="imagens/icon-touch-retina-ipad.png">
+    <link rel="shortcut icon" href="imagens/favicon_1.ico">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <title>Ronel - soluções em loja online e marketing digital</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <header>
+            <div class="container">
+                <img src="imagens/logoronel250x92.png" alt="Ronel">
+            </div>
+
+        </header>
+        <section>
+            <nav>
+                <div class="col-md-12 col-sm-12" id="nav">
+                    <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu"
+                        aria-expanded="false"> Menu <span id="hamburger"></span>
+                    </button>
+
+                    <ul class="nav justify-content-end" id="menu" role="menu">
+                        <li class="nav-item" id="home"> <a class="nav-link active" href=""><strong>Home</strong> </a>
+                        </li>
+                        <li class="nav-item"> <a class="nav-link" href="./loja_virtual_nuvemShop.html"> <strong>Lojas
+                                    Virtual - Nuvem Shop</strong> </a></li>
+                        <li class="nav-item"> <a class="nav-link" href="./loja_virtual_shopify.html"> <strong>Lojas
+                                    Virtual - Shopify</strong> </a></li>
+                        <li class="nav-item"> <a class="nav-link" href="./anuncio_facebookAds.html"> <strong>Anuncio -
+                                    Facebook Ads</strong> </a></li>
+                        <li class="nav-item"> <a class="nav-link" href="./anuncio_googleAds.html"> <strong>Anuncio -
+                                    Google Ads</strong> </a></li>
+                    </ul>
+                </div>
+            </nav>
+            <article>
+                <div class="container_2">
+
+                </div>
+
+            </article>
+
+        </section>
+
+
+        <section>
+            <div class="container-3">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="ratio ratio-21x9">
+                                <img src="imagens/img1.jpg" class="d-block w-100" alt="">
+                            </div>
+                            <!--
+                            <div class="carousel-caption">
+                                <h5>Conheça nossa linha de produtos para seu melhor amigo!</h5>
+                                <a href="#produtos" class="btn btn-light stretched-link">Produtos</a>
+                            </div>
+                            -->
+                        </div>
+                        <div class="carousel-item">
+                            <div class="ratio ratio-21x9">
+                                <img src="./imagens/img2.jpg" class="d-block w-100" alt="">
+                            </div>
+                            <!--
+                            <div class="carousel-caption">
+                                <h5>Conheça nossa linha de produtos para seu melhor amigo!</h5>
+                                <a href="#produtos" class="btn btn-light stretched-link">Produtos</a>
+                            </div>
+                            -->
+                        </div>
+                        <!--
+                        <div class="carousel-item">
+                            <div class="ratio ratio-21x9">
+                                <img src="./imagens/img4.jpg" class="d-block w-100" alt="">
+                            </div>
+                            
+                            <div class="carousel-caption">
+                                <h5>Conheça nossa linha de produtos para seu melhor amigo!</h5>
+                                <a href="#produtos" class="btn btn-light stretched-link">Produtos </a>
+                            </div>
+                            
+                        </div>
+                         -->
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section id="banner">
+
+            <div class="legenda-container">
+
+                <div class="legenda">
+
+                    <h4>Soluções em Lojas online e Marketing digital</h4>
+                    <h5>Aqui na Ronel você tem a solução completa</h5>
+                </div>
+                <a class="button-cta" href="tenho_interesse.html" rel="next" target="_self">Tenho interesse</a>
+
+            </div>
+        </section>
+
+        <footer>
+            <div class="container_footer">
+                <p>&copy; Ronel. Todos os direitos reservados.
+                    <small>Desenvolvido por Ronel Soluções em Lojas online e Marketing digital</small>
+                </p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="javascript/botaomenu.js"></script>
+    <script src="https://kit.fontawesome.com/8c725a2565.js" crossorigin="anonymous"></script>
+    <script>
+        var myCarousel = document.querySelector('#carouselExampleControls')
+        var carousel = new bootstrap.Carousel(myCarousel, {
+            interval: 4000
+        })
+    </script>
+</body>
+
+</html>
