@@ -39,7 +39,7 @@ body {
     margin: 0 auto;
     margin-top: 5px;
     margin-bottom: 5px;
-    background-color: #eee7e7a6;
+    background-color: #f8f1f1d5;
 
 }
 
@@ -183,9 +183,6 @@ footer small {
     display: block;
 }
 
-.whatssap:hover {
-    
-}
 
 
 @media (max-width:425px) {
