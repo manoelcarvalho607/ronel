@@ -37,7 +37,7 @@ header {
 
 
 .container_header {
-    height: 100px;
+    height: 145px;
     max-width: 100%;
     padding: 20px 0 20px 10px;
     margin-top: 5px;
@@ -124,10 +124,9 @@ section {
 
 section nav {
     display: block;
-    float: left;
+    width: 23%;
     padding: 10px 0 10px 10px;
-    max-width: 100%;
-    
+
 }
 
 nav li {
@@ -229,7 +228,7 @@ footer small {
 
 @media (max-width:425px) {
     footer {
-        width: 89%;
+        width: 100%;
     }
 }
 
