@@ -7,10 +7,6 @@ body {
     background-color: #dfdbdb;
     font-family: 'Open Sans', sans-serif;
 
-
-
-
-
 }
 
 .main-container {
@@ -39,8 +35,16 @@ body {
     margin: 0 auto;
     margin-top: 5px;
     margin-bottom: 5px;
-    background-color: #f8f1f1d5;
+    background-color: #f8f1f1f5;
 
+}
+
+.container_header {
+    height: 150px;
+    max-width: 100%;
+    padding: 20px 0 20px 10px;
+    margin-top: 5px;
+    background-color: #dfdbdb;
 }
 
 .container_footer {
@@ -123,6 +127,7 @@ section {
 section nav {
     display: block;
     width: 23%;
+    padding: 10px 0 10px 10px;
 
 }
 
@@ -163,13 +168,10 @@ section article {
 
 footer {
     background-color: #254159;
-
     display: block;
     float: left;
     width: 100%;
     padding: 20px;
-
-
 }
 
 footer p {
@@ -287,8 +289,5 @@ footer small {
     width: auto;
     text-decoration: none;
     text-align: center;
-
-
-
 
 }

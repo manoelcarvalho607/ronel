@@ -1,3 +1,5 @@
+
+
 html {
     font-size: 62.5%;
 
@@ -6,21 +8,40 @@ html {
 body {
     background-color: #dfdbdb;
     font-family: 'Open Sans', sans-serif;
-
-
-
-
-
+    
 }
 
 .main-container {
     display: block;
-
     margin: 0 auto;
     min-width: 320px;
     max-width: 1200px;
 
 
+}
+.container_header {
+    height: 150px;
+    max-width: 100%;
+    padding: 20px 0 20px 10px;
+    margin-top: 5px;
+    background-color: #9b9898;
+}
+
+header {
+    background-color: #ffff;
+    display: block;
+    float: left;
+    border-bottom: 1px solid #254159;
+    width: 100%;
+}
+
+
+.container_header {
+    height: 100px;
+    max-width: 100%;
+    padding: 20px 0 20px 10px;
+    margin-top: 5px;
+    background-color: #dfdbdb;
 }
 
 .img-1 {
@@ -31,14 +52,7 @@ body {
 
 }
 
-.container {
-    display: block;
-    text-align: center;
-    float: left;
-   padding: 20px 0 20px 10px;
-    margin: 0 auto;
-    
-}
+
 
 .container_footer {
     display: block;
@@ -49,15 +63,6 @@ body {
 
 }
 
-header {
-    background-color: #ffff;
-    display: block;
-    float: left;
-
-    border-bottom: 1px solid #254159;
-    padding: 20px;
-    width: 100%;
-}
 
 h1 {
     font-size: 2.4rem;
@@ -113,7 +118,6 @@ section {
     float: left;
     font-size: 1.5rem;
     /* equivalente a 15px */
-    padding: 20px;
     width: 100%;
 
 }
@@ -121,8 +125,9 @@ section {
 section nav {
     display: block;
     float: left;
-    width: 22%;
-    margin-right: 8px;
+    padding: 10px 0 10px 10px;
+    max-width: 100%;
+    
 }
 
 nav li {
@@ -157,18 +162,16 @@ section article {
     display: block;
     float: left;
     width: 70%;
+    margin-left: 5px;
 
 }
 
 footer {
     background-color: #254159;
-
     display: block;
     float: left;
-    width: 100%;
+    width: 96.7%;
     padding: 20px;
-
-
 }
 
 footer p {
@@ -188,7 +191,7 @@ footer small {
 
     section nav,
     section article {
-        width: 100%
+        width: 89%
     }
 }
 
@@ -226,7 +229,7 @@ footer small {
 
 @media (max-width:425px) {
     footer {
-        width: 100%;
+        width: 89%;
     }
 }
 
@@ -250,8 +253,6 @@ footer small {
     background-size: cover;
     width: 100vm;
     height: 60vh;
-
-
 
 }
 

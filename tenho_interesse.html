@@ -10,7 +10,10 @@
         <link rel="apple-touch-icon" href="imagens/icon-touch-retina-ipad.png">
         <link rel="shortcut icon" href="imagens/favicon_1.ico">
 
+        
+        <link rel="stylesheet" href="./css/reset.css">
         <link rel="stylesheet" href="./css/styles_1.css">
+        <link rel="stylesheet" href="./css/style-menu.css">
         
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,16 +25,53 @@
     <body>
         <div class="main-container" >
             <header>
-                <div class="container"> 
-                    <a href="https://manoelcarvalho607.github.io/GatewayCloud/tenho_interesse.html"><img src="imagens/gateway_titulo.jpg" alt="GatewayCloud"></a> 
-              
+                <div class="container_header">
+                    <a href="https://manoelcarvalho607.github.io/ronel/index.html"><img src="imagens/logoronel250x92.png" alt="Ronel"></a> 
                 </div>
-            </header>   
+    
+            </header> 
+            <section>
+                <nav>
+                    <div class="col-md-12 col-sm-12" id="nav">
+                        <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu"
+                            aria-expanded="false"> Menu <span id="hamburger"></span>
+                        </button>
+    
+                        <ul class="nav justify-content-end" id="menu" role="menu">
+                            <li class="nav-item" id="home"> <a class="nav-link active" href=""><strong>Home</strong> </a>
+                            </li>
+                            <li class="nav-item"> <a class="nav-link" href="./loja_virtual_nuvemShop.html"> <strong>Loja
+                                        Virtual - Nuvem Shop</strong> </a></li>
+                            <li class="nav-item"> <a class="nav-link" href="./loja_virtual_shopify.html"> <strong>Loja
+                                        Virtual - Shopify</strong> </a></li>
+                            <li class="nav-item"> <a class="nav-link" href="./mark_place_mercadolivre.html"> <strong>Marketing place - Mercado Livre</strong> </a></li>
+                            <li class="nav-item"> <a class="nav-link" href="./anuncio_facebookAds.html"> <strong>Anuncio -
+                                        Facebook Ads</strong> </a></li>
+                            <li class="nav-item"> <a class="nav-link" href="./anuncio_googleAds.html"> <strong>Anuncio -
+                                        Google Ads</strong> </a></li>
+                            <li class="nav-item"> <a class="nav-link" href="./gestao_rede_social.html"> <strong>Gestão - Redes Social</strong> </a></li>
+                            <li class="nav-item"> <a class="nav-link" href="./manutencao_suporte.html"> <strong>Manutençao e Suporte</strong> </a></li>
+                            <li class="nav-item"> <a class="nav-link" href="./logo.html"> <strong>Identidade Visual e Logotipo</strong> </a></li>
+                            <li class="nav-item"> <a class="nav-link" href="./blog.html"> <strong>Blog</strong> </a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <article>
+                    <div class="container_2">
+    
+                    </div>
+    
+                </article>
+    
+            </section>
+    
+    
+           
 
             <section>
 
                 
-
+                <!--
                 <nav>
                     <ul>
                         <li><a href="https://manoelcarvalho607.github.io/GatewayCloud/index.html" rel="prev" target="_self">Home</a></li>
@@ -41,7 +81,7 @@
 
 
                 </nav>
-
+                -->
                 <article >
                     <picture>
                        
@@ -66,15 +106,33 @@
 
                 </article>
             </section>
-        
             <footer>
                 <div class="container_footer">
-                <p>&copy; GatewayCloud. Todos os direitos reservados.
-                <small>Desenvolvido por: Manoel Carvalho</small></p> 
+                    <p>&copy; Ronel. Todos os direitos reservados.
+                        <small>Desenvolvido por Ronel Soluções em Lojas online e Marketing digital</small>
+                    </p>
                 </div>
             </footer>
+        </div>
+    
+        <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="javascript/botaomenu.js"></script>
+        <script src="https://kit.fontawesome.com/8c725a2565.js" crossorigin="anonymous"></script>
+        <script>
+            var myCarousel = document.querySelector('#carouselExampleControls')
+            var carousel = new bootstrap.Carousel(myCarousel, {
+                interval: 4000
+            })
+        </script>
+    
+        <a
+            class="whatssap" href="https://api.whatsapp.com/send?phone=5514997607802&text=Ronel%20-%20%20Suporte%20de%20atendimento%20ao%20cliente%0A%0A%20"><img
+                src="https://i.imgur.com/ryESuZ5.png"
+                style="height:60px; position:fixed; bottom:25px; right:25px; z-index:99999;" data-selector="img"
+                alt="WhatsApp atendimento ao cliente" title="Ronel - Atendimento ao cliente"></a>
+          
 
         </div>
-        
+      
     </body>
 </html>
