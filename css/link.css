@@ -1,0 +1,150 @@
+html {
+    font-size: 62.5%;
+
+}
+
+body {
+    background-color: #dfdbdb;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+.main-container {
+    display: block;
+
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 1200px;
+
+
+}
+
+.container_leucena {
+    height: 50px;
+    text-align: center;
+    max-width: 100%;
+    padding: 10px 0 5px 5px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    background-color: #afaaaa;
+}
+
+section {
+    background-color: #ffff;
+    display: block;
+    width: 100%;
+    float: left;
+    font-size: 1.5rem;
+    /* equivalente a 15px */
+   /* padding: 20px; */
+   padding-bottom: 5px;
+    width: 100%;
+
+}
+
+.linkpage {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 600px;
+    background-color: rgb(190, 226, 226);
+}
+
+.linkacesso {
+    margin: auto;
+   
+}
+
+.linkleucena {
+    margin: auto;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    padding: 80px 10px 20px 10px;
+}
+
+.linkwhatsapp {
+    margin: auto;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+
+.container_footer {
+    display: block;
+    padding: 10px 0 10px 0;
+    margin: 0 auto;
+    text-align: center;
+
+
+}
+
+h2 {
+    margin-top: 10px;
+    font-size: 1.4rem;
+}
+
+footer {
+    background-color: #254159;
+    display: block;
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+   
+}
+
+footer p {
+    color: #ffffffff;
+    font-size: 1.2rem;
+
+}
+
+footer small {
+    font-size: 80%;
+    display: block;
+}
+
+.button-cta_1 {
+    margin: auto;
+    display: block;
+    margin-top: 2px;
+    background-color: #c4aaa454;
+    color: #fff;
+    font-size: 1rem;
+    box-shadow: 1px 1px 2px black;
+    padding: 5px 10px;
+    width: 50%;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.button-cta {
+    display: block;
+    background-color: orangered;
+    color: #fff;
+    font-size: 1.2rem;
+    box-shadow: 2px 2px 4px black;
+    padding: 10px 15px;
+    width: auto;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+@media (max-width:425px) {
+
+    section,
+    header {
+        padding: 0;
+    }
+}
+
+@media(max-width:425px) {
+    footer {
+        width: 100%;
+    }
+}
