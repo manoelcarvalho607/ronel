@@ -42,7 +42,6 @@ body {
 }
 
 .container_header {
-    height: 150px;
     max-width: 100%;
     padding: 20px 0 20px 10px;
     margin-top: 5px;
@@ -64,6 +63,7 @@ header {
     float: left;
     border-bottom: 1px solid #70a5d3e3;
     width: 100%;
+    margin-bottom: 5px;
 }
 
 h1 {
@@ -126,10 +126,11 @@ section {
 
 }
 
-section nav {
+header nav {
+    margin: 10px 0 10px 0;
     display: block;
     width: 23%;
-    padding: 10px 0 10px 10px;
+    
 
 }
 
@@ -156,6 +157,9 @@ nav a {
     text-decoration: none;
     color: #254159;
 }
+
+
+
 
 nav a:hover {
     color: #385874;
