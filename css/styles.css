@@ -134,6 +134,10 @@ header nav {
 
 }
 
+strong {
+    font-size: 1.4rem;
+}
+
 nav li {
     background-color: #efefef;
     margin: 1px 1px 1px 0;
