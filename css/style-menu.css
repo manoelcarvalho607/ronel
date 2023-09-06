@@ -131,6 +131,9 @@
         z-index: 1000;
     }
 
+    .cognito {
+        padding: 5px;
+     }
     .imgMobile {
         max-width: 400px;
      }
