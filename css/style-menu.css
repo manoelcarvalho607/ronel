@@ -131,6 +131,10 @@
         z-index: 1000;
     }
 
+    .imgMobile {
+        max-width: 400px;
+     }
+
     #nav.active #menu {
         height: calc (100vh - 70px);
         visibility: visible;
