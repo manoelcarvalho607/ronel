@@ -26,6 +26,10 @@
         z-index: 1000;
     }
 
+      .imgMobile {
+        width: 100%;
+     }
+
     #nav.active #menu {
         height: calc (100vh - 70px);
         visibility: visible;
@@ -106,6 +110,9 @@
         margin-left: 8%;
        
     }
+    .imgMobile {
+        width: 100%;
+     }
 
 }
 
@@ -135,7 +142,7 @@
         padding: 5px;
      }
     .imgMobile {
-        max-width: 400px;
+        width: 100%;
      }
 
     #nav.active #menu {
